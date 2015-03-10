@@ -9,16 +9,16 @@ namespace AppServicioEntregaPaquetes.Modelo
     {
 
         #region "Atributos"
-        public string codigo;
-        public string nombre;
-        public string direccion;
-        public string ciudad;
-        public string departamento;
-        public string cp_remitente;
-        public string cp_destinatrario;
-        public int peso;
-        public int costo_gramos;
-        public int valor_envio;
+        private string codigo;
+        private string nombre;
+        private string direccion;
+        private string ciudad;
+        private string departamento;
+        private string cp_remitente;
+        private string cp_destinatrario;
+        private int peso;
+        private int costo_gramos;
+        private int valor_envio;
         #endregion
         
         #region "Propiedades"
@@ -92,7 +92,7 @@ namespace AppServicioEntregaPaquetes.Modelo
                     "\nCodigo postal destinatario : " + cp_destinatrario +
                     "\nPeso Paquete : " + peso +
                     "\nCosto por gramo : " + costo_gramos +
-                    "\nValor total envio : " + calculatecost() + "se llevo e kilogramos a gramos para hallar el valor en gramos";
+                    "\nValor total envio : " + calculatecost() + " \nse llevo e kilogramos a gramos para hallar el valor en gramos";
         }
 
         public override int GetHashCode()

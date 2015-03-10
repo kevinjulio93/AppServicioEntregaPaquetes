@@ -62,6 +62,7 @@
     <Content Include="Web\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos\BillsRepositories.cs" />
     <Compile Include="Modelo\OvernightPackage.cs" />
     <Compile Include="Modelo\Package.cs" />
     <Compile Include="Modelo\TwoDayPackage.cs" />
@@ -90,9 +91,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Datos\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
