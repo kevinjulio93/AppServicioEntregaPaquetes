@@ -16,7 +16,7 @@ namespace AppServicioEntregaPaquetes.Modelo
         private string departamento;
         private string cp_remitente;
         private string cp_destinatrario;
-        private int peso;
+        public int peso;
         private int costo_gramos;
         private int valor_envio;
         #endregion
