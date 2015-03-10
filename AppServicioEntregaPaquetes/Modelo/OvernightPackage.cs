@@ -5,7 +5,11 @@ using System.Web;
 
 namespace AppServicioEntregaPaquetes.Modelo
 {
-    public class OvernightPackage
+    public class OvernightPackage : Package
     {
+
+
+
+
     }
 }

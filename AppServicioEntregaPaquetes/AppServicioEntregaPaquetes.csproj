@@ -62,7 +62,9 @@
     <Content Include="Web\Default.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelo\OvernightPackage.cs" />
     <Compile Include="Modelo\Package.cs" />
+    <Compile Include="Modelo\TwoDayPackage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Web\Customers.aspx.cs">
       <DependentUpon>Customers.aspx</DependentUpon>
@@ -80,6 +82,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ClassDiagram1.cd" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

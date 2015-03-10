@@ -5,7 +5,7 @@ using System.Web;
 
 namespace AppServicioEntregaPaquetes.Modelo
 {
-    public class TwoDayPackage
+    public class TwoDayPackage : Package
     {
     }
 }
